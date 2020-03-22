@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StopwatchGame</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="home modal">
+    <h1>Stopwatch Game</h1>
+    <h2>LEVEL 1</h2>
+    <div class="modal_text">
+      <div class="game-start-btn">ゲームスタート</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="timer">00.000</div>
+    <div class="controls">
+      <div class="btn" id="start">Start</div>
+      <div class="btn" id="stop">Stop</div>
+    </div>
+  </div>
+
+  <div class="next-stage modal hidden">
+    <h1>LEVEL1 Clear</h1>
+    <h2>LEVEL 2</h2>
+    <div class="modal_text">
+      <p>5秒で止めろ!!</p>
+      <div class="game-start-btn next-start-btn">ゲームスタート</div>
+    </div>
+  </div>
+
+  <div class="game-over modal hidden">
+    <h1>Game Over</h1>
+    <h2></h2>
+    <div class="modal_text">
+      <a href="" class="game-start-btn">もう一回挑戦する?</a>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
